@@ -20,4 +20,3 @@ steps:
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     runWorkflowAnalysis: true
     traceLevel: 'Verbose'
-
