@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nbc+Ff27ALO1hUN14RIrSlzTE8J6IWtAwttDHLXrPFwOb9DwL/svpynZGGlrbNy8d2vsEbUQwXTo0XhNebP1aA==",
+  "dgSpecHash": "Zxsd0BJVEhc4TflV5l5HHCaLy8Om9o4oEQ2+enwdcp0f7mhWZiA44mDm3T4jBZGwmxnNK0pehfXHKPqUt962Eg==",
   "success": true,
-  "projectFilePath": "C:\\UiPathDevelopment\\RPAChallenge2023\\.local\\",
+  "projectFilePath": "C:\\UiPathDevelopment\\RPAChallenge2023-master\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\axelramirez\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\axelramirez\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

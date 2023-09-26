@@ -20945,9 +20945,9 @@
     "restore": {
       "projectUniqueName": "RPAChallenge2023",
       "projectName": "RPAChallenge2023",
-      "projectPath": "C:\\UiPathDevelopment\\RPAChallenge2023\\.local",
+      "projectPath": "C:\\UiPathDevelopment\\RPAChallenge2023-master\\.local",
       "packagesPath": "C:\\Users\\axelramirez\\.nuget\\packages\\",
-      "outputPath": "C:\\UiPathDevelopment\\RPAChallenge2023\\.local"
+      "outputPath": "C:\\UiPathDevelopment\\RPAChallenge2023-master\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
