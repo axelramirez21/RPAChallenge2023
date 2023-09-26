@@ -19,7 +19,7 @@ steps:
     orchestratorConnection: 'UiPath Orchestrator'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     #runWorkflowAnalysis: true
-    traceLevel: 'Verbose'
+    #traceLevel: 'Verbose'
 
 - task: PublishBuildArtifacts@1
   inputs:
