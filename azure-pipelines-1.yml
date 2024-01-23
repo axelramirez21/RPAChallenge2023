@@ -27,9 +27,9 @@ steps:
     ArtifactName: 'DemoRpaChallenge2023CICD'
     publishLocation: 'Container'
 
-#- task: UiPathDeploy@4
-#  inputs:
-#    orchestratorConnection: 'UiPath Orchestrator'
-#    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-#    folderName: 'Default/Development'
-#    traceLevel: 'Verbose'
+- task: UiPathDeploy@4
+  inputs:
+    orchestratorConnection: 'UiPath Orchestrator'
+    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
+    folderName: 'Default/Development'
+    traceLevel: 'Verbose'
