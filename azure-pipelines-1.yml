@@ -26,7 +26,13 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'DemoRpaChallenge2023CICD'
     publishLocation: 'Container'
-
+- task: UiPathTest@4
+  inputs:
+    testTarget: 'TestSet'
+    orchestratorConnection: 'UiPath Orchestrator'
+    testSet: 'RPA Challenge 2023 Test Set'
+    folderName: 'Default/Development'
+    testReportDestination: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathDeploy@4
   inputs:
     orchestratorConnection: 'UiPath Orchestrator'
